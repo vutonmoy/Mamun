@@ -1,0 +1,331 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context="com.appstech.mamun.bdmobileoperatorsshake.RobiCustomerCaree">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_r_h"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:gravity="center"
+            android:layout_marginBottom="9dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="আপনার অপশন নির্বাচিত করুন"
+            android:textSize="18dp"
+            android:background="@drawable/robi_button"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robi C.Care in dhaka"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/robi_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Gulshan-1,Silver Tower(First Floor)"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="52,South Gulshan Commercial Area,Gulshan-1,Dhaka-1212"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robi C.Care in Chittagong"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/robi_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Almas Plaza(First FI)."
+                    />
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1002,C.D.A Avenue,Asian Highway(GEC Circle)."
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="East Nasirabad,Chittagong."
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robi C.Care in Sylhet"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/robi_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Firoz Centre(Second Floor)."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chowhatta,Sylhet"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robi C.Care in Khulna"
+                    android:textSize="18dp"
+
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/robi_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Munna Plaza(1st Floor)."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="7 KDA Avenue,Khulna"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robi C.Care in Rajshahi"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/robi_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="House No.247,Sector-2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Upashahor Housing,Rajshahi-6202"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robi C.Care in Barisal"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/robi_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="884/240,Bashori Bazar"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="South Alekanda,Barisal"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+

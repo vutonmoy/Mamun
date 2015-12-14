@@ -1,0 +1,210 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appstech.mamun.bdmobileoperatorsshake.Robi">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="80dp"
+            android:background="@drawable/robic"
+            android:layout_height="80dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="22dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Please Select Your Option"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@android:drawable/alert_light_frame"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:layout_height="135dp">
+                    <Button
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/ic_r_p"
+                        android:id="@+id/robi_packages_information" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Packages Information"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@android:color/background_dark"
+                        android:id="@+id/robi_packages" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_r_i"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/robi_internet_packages" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internet Packages"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@android:color/background_dark"
+                        android:id="@+id/robi_internet_packages_text"  />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:layout_height="135dp">
+                    <Button
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_r_f"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/robi_fnf_service" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FNF Service"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@android:color/background_dark"
+                        android:id="@+id/robi_fnf_service_text" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_r_b"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/robi_Bundle_offers" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bundle Offers"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@android:color/background_dark"
+                        android:id="@+id/robi_Bundle_offers_text"  />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:layout_height="135dp">
+                    <Button
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_r_s"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/robi_selfcare_menu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SelfCare Menu"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@android:color/background_dark"
+                        android:id="@+id/robi_selfcare_menu_text" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_r_h"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/Robi_history" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Customer Care"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@android:color/background_dark"
+                        android:id="@+id/Robi_history_text"  />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

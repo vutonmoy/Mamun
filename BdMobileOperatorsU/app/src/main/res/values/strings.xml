@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Bd Mobile Operators Shake</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_grameen_phone">GrameenPhone</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_robi">Robi</string>
+    <string name="title_activity_banglalink">Banglalink</string>
+    <string name="title_activity_airtel">Airtel</string>
+    <string name="title_activity_citycell">Citycell</string>
+    <string name="title_activity_teletalk">Teletalk</string>
+    <string name="title_activity_robi_bundle_offer">Robi Bundle Offer</string>
+
+    <string name="title_activity_gp_bundle_offer">Grameenphone Bundle Offer</string>
+
+    <string name="title_activity_about_us">About Us</string>
+
+    <string name="title_activity_gp_packages_info">Gp Packages Info</string>
+
+    <string name="title_activity_robi_packages_info">Robi Packages Info</string>
+
+    <string name="title_activity_robi_packages_info_damal_samal22">Damal Samal Package Details
+    </string>
+
+    <string name="title_activity_robi_damalsamal22">Damal Samal Package Details</string>
+    <string name="title_activity_robi_packageinformatins">Robi Package Info</string>
+    <string name="title_activity_robi_damal_samal">Damal Samal Details Info</string>
+    <string name="title_activity_gp_fnf">GpFnf</string>
+    <string name="title_activity_robi_fnf">RobiFnf</string>
+    <string name="title_activity_banglalink_fnf">Banglalink Fnf</string>
+    <string name="title_activity_airtel_fnf">Airtel Fnf</string>
+    <string name="title_activity_teletalk_fnf">"Teletalk Fnf "</string>
+    <string name="decision">"Are You Sure To Active This"</string>
+    <string name="positive_button">"Confirm "</string>
+    <string name="negative_button">"No "</string>
+    <string name="title_activity_gp_customer_care">Gp Customer Care</string>
+    <string name="title_activity_robi_customer_care">Robi Customer Care</string>
+    <string name="title_activity_banglalink_customer_care">Banglalink Customer Care</string>
+    <string name="title_activity_citycell_customer_care">CItycell Customer Care</string>
+    <string name="title_activity_airtel_customer_care">Airtel Customer Care</string>
+    <string name="title_activity_teletalk_customer_care">Teletalk Customer Care</string>
+    <string name="title_activity_robi_tarunno26">Tarunno 26 Details Info</string>
+    <string name="title_activity_robi_anonna27">Anonna 27 Details Info</string>
+    <string name="title_activity_gp_self_care_menu">Gp SelfCare Menu</string>
+    <string name="title_activity_airtel_self_care_menu">Airtel SelfCare Menu</string>
+    <string name="title_activity_banglalink_selfcare">Banglalink Selfcare Menu</string>
+    <string name="title_activity_robi_self_care">Robi SelfCare Menu</string>
+    <string name="title_activity_teletalk_selfcare">Teletalk Selfcare Menu</string>
+    <string name="title_activity_broard_band_service">Broardband Service</string>
+    <string name="title_activity_banglaion_packages">Banglaion Packages</string>
+</resources>

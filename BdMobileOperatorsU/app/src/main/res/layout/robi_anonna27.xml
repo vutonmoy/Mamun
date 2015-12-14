@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appstech.mamun.bdmobileoperatorsshake.RobiAnonna27
+">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_marginBottom="9dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Anonna 27  Package"
+        android:background="@drawable/robi_button"
+        android:layout_gravity="center_horizontal" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="On-Net"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1.02 TK/60sec"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal|top" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Off-Net"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="01.02 TK/60sec"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="FnF"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 Robi Numbers"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2"
+                android:textColor="@android:color/black"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="FnF Call Rate"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="0.48 Tk/60sec"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center_horizontal|top" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="2"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="SMS"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text=".25 Taka/Any"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="32sp"
+                android:text="Active Now"
+                android:id="@+id/anonna27a"
+                android:textColor="@android:color/white"
+                android:background="@drawable/robi_button"
+                android:layout_gravity="center_horizontal" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>
+
+
+

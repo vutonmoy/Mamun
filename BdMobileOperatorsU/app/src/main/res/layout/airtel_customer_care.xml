@@ -1,0 +1,303 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context="com.appstech.mamun.bdmobileoperatorsshake.AirtelCustomerCare
+">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_ahistory"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginBottom="9dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="আপনার অপশন নির্বাচিত করুন"
+            android:textColor="@android:color/white"
+            android:background="@drawable/airtel_button"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Airtel C.Care in dhaka"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/airtel_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tajwar Center,House 34,Road-19/A"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Banani,Dhaka,1213"
+                    />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="64/1 Purana Paltan"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Motijheel C/A,Dhaka-1000"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Airtel C.Care in Chittagong"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/airtel_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Quaderi Chember,37 Agrabad C/A"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chittagong,Bangladesh"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Airtel C.Care in Khulna"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/airtel_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="A Kunjer Tower(Gr Floor),A-41,42 Mazid Sharani."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Shib Barir More Shonadanga-9100"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Airtel C.Care in Sylhet"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/airtel_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Rahman Tower,Bangabir,House No.A/2"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Naiorpool,Sylhet,Bangladesh"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@android:drawable/alert_light_frame"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Airtel C.Care in Rajshahi"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/airtel_button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Parents Plaza Alupotty."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ghoramara Boalia,Rajshahi,Bangladeshh"
+                    />
+
+
+            </LinearLayout>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+

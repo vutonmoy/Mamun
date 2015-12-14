@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appstech.mamun.bdmobileoperatorsshake" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:banner="@drawable/bho"
+        android:icon="@drawable/robi"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GrameenPhone"
+            android:label="@string/title_activity_grameen_phone" >
+        </activity>
+        <activity
+            android:name=".Robi"
+            android:label="@string/title_activity_robi" >
+        </activity>
+        <activity
+            android:name=".Banglalink"
+            android:label="@string/title_activity_banglalink" >
+        </activity>
+        <activity
+            android:name=".Airtel"
+            android:label="@string/title_activity_airtel" >
+        </activity>
+        <activity
+            android:name=".Citycell"
+            android:label="@string/title_activity_citycell" >
+        </activity>
+        <activity
+            android:name=".Teletalk"
+            android:label="@string/title_activity_teletalk" >
+        </activity>
+        <activity
+            android:name=".RobiBundleOffer"
+            android:label="@string/title_activity_robi_bundle_offer" >
+        </activity>
+        <activity
+            android:name=".GpBundleOffer"
+            android:label="@string/title_activity_gp_bundle_offer" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".RobiPackageinformatins"
+            android:label="@string/title_activity_robi_packageinformatins" >
+        </activity>
+        <activity
+            android:name=".RobiDamalSamal"
+            android:label="@string/title_activity_robi_damal_samal" >
+        </activity>
+        <activity
+            android:name=".GpFnf"
+            android:label="@string/title_activity_gp_fnf" >
+        </activity>
+        <activity
+            android:name=".RobiFnf"
+            android:label="@string/title_activity_robi_fnf" >
+        </activity>
+        <activity
+            android:name=".BanglalinkFnf"
+            android:label="@string/title_activity_banglalink_fnf" >
+        </activity>
+        <activity
+            android:name=".AirtelFnf"
+            android:label="@string/title_activity_airtel_fnf" >
+        </activity>
+        <activity
+            android:name=".TeletalkFnf"
+            android:label="@string/title_activity_teletalk_fnf" >
+        </activity>
+        <activity
+            android:name=".GpCustomerCare"
+            android:label="@string/title_activity_gp_customer_care" >
+        </activity>
+        <activity
+            android:name=".RobiCustomerCare"
+            android:label="@string/title_activity_robi_customer_care" >
+        </activity>
+        <activity
+            android:name=".BanglalinkCustomerCare"
+            android:label="@string/title_activity_banglalink_customer_care" >
+        </activity>
+        <activity
+            android:name=".CItycellCustomerCare"
+            android:label="@string/title_activity_citycell_customer_care" >
+        </activity>
+        <activity
+            android:name=".AirtelCustomerCare"
+            android:label="@string/title_activity_airtel_customer_care" >
+        </activity>
+        <activity
+            android:name=".TeletalkCustomerCare"
+            android:label="@string/title_activity_teletalk_customer_care" >
+        </activity>
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RobiTarunno26"
+            android:label="@string/title_activity_robi_tarunno26" >
+        </activity>
+        <activity
+            android:name=".RobiAnonna27"
+            android:label="@string/title_activity_robi_anonna27" >
+        </activity>
+        <activity
+            android:name=".GpSelfCareMenu"
+            android:label="@string/title_activity_gp_self_care_menu" >
+        </activity>
+        <activity
+            android:name=".AirtelSelfCareMenu"
+            android:label="@string/title_activity_airtel_self_care_menu" >
+        </activity>
+        <activity
+            android:name=".BanglalinkSelfcare"
+            android:label="@string/title_activity_banglalink_selfcare" >
+        </activity>
+        <activity
+            android:name=".RobiSelfCare"
+            android:label="@string/title_activity_robi_self_care" >
+        </activity>
+        <activity
+            android:name=".TeletalkSelfcare"
+            android:label="@string/title_activity_teletalk_selfcare" >
+        </activity>
+        <activity
+            android:name=".BroardBandService"
+            android:label="@string/title_activity_broard_band_service" >
+        </activity>
+        <activity
+            android:name=".BanglaionPackages"
+            android:label="@string/title_activity_banglaion_packages" >
+        </activity>
+    </application>
+
+</manifest>

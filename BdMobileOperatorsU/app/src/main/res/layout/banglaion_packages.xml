@@ -1,0 +1,1615 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appstech.mamun.bdmobileoperatorsshake.BanglaionPackages">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="80dp"
+            android:background="@drawable/banglaion"
+            android:layout_height="80dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="22dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Please Select Your Option"
+            android:id="@+id/textView8"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Banglaion Wimax Prepaid"
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+               android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Speed 512Kpbs or 1Mbps"
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total MB"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recharge Taka"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Validity"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="200 MB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="49 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="500 MB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="99 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+
+                android:textColor="@android:color/black"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited MB"
+
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="149 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3"
+            android:background="@android:drawable/alert_light_frame"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="1 GB"
+
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal|top" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="199 Taka"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal|top" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="14 Days"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2.5 GB"
+
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="399 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 GB"
+
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="699 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="7 GB"
+
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="999 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="60 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="12 GB"
+
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1499 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="90 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_light_frame"
+            android:text="Banglaion Wimax Postpaid"
+            android:backgroundTint="@color/black_overlay"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:layout_gravity="center_horizontal|top" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Speed  Upto   1Mbps"
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total MB"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recharge Taka"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Validity"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3"
+            android:background="@android:drawable/alert_light_frame"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="2 GB"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal|top" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="400 Taka"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal|top" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="30 Days"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="500 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="5.5 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="750 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="8 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="920 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="10 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1000 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="15 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1200 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="33 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1400 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(Fup30GB)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1350 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(Fup40GB)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2300 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(Fup70GB)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="4000 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Banglaion Wimax Postpaid"
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Speed  Upto   2Mbps"
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total MB"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recharge Taka"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Validity"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="750 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="5.5 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1000 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="8 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1325 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="10 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="1500 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="15 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2000 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="20 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2250Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="33 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2700 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(FUP30GB)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2500 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(FUP50GB)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="4600 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(FUP70GB)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="6500 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text=" Postpaid Add-On Services "
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total MB"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recharge Taka"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Validity"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:layout_gravity="center_horizontal|top" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="2 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="200 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="500 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="10 GB"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="700 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(1am-6am)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="200 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(7am-11am)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="200 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(1am-6am)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="400 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="12 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="3"
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited(7am-11am)"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="400 Taka"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="12 Days"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Careline 09611556677"
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Website:www.banglaionwimax.com"
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Email:info@banglaionwimax.com"
+                android:backgroundTint="@color/black_overlay"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_gravity="center_horizontal|top" />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+

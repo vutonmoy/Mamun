@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/r"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="আপনার মোবাইল আপারেটর নির্বাচিত করুন"
+        android:id="@+id/textView"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:backgroundTint="@android:color/secondary_text_light_nodisable"
+            android:paddingTop="15dp"
+            android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                   android:gravity="center"
+                    android:weightSum="4"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_marginLeft="2dp"
+                  android:paddingTop="2dp"
+                    android:id="@+id/robi"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/aj"
+
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1.5"
+                    android:id="@+id/grameenphone"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/akl"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:weightSum="4"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/banglalink"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/af" />
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/citycell"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/ah"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="7dp"
+                android:weightSum="4"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="2dp"
+                    android:id="@+id/airtel"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/ad" />
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/teletalk"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/ak"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="7dp"
+                android:weightSum="4"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1.5"
+                    android:id="@+id/broadband"
+                    android:background="@drawable/ag" />
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/aboutus"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/as"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
